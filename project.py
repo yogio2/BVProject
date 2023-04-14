@@ -8,6 +8,7 @@ from dash import Dash,dcc,html,Input, Output
 # -- Import and clean data (importing csv into pandas)
 
 app = Dash(__name__)
+server = app.server
 
 
 df = pd.read_csv("intro_bees.csv")
