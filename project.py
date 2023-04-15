@@ -10,8 +10,7 @@ from dash import Dash,dcc,html,Input, Output
 app = Dash(__name__)
 server = app.server
 
-
-df = pd.read_csv("intro_bees.csv")
+df = pd.read_csv("D:/study/year 5/sem 10/BV/Project/intro_bees.csv")
 df = df.groupby(['State', 'ANSI', 'Affected by', 'Year', 'state_code'])[['Pct of Colonies Impacted']].mean()
 df.reset_index(inplace=True)
 print(df[:5])
