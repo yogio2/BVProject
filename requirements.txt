@@ -70,7 +70,6 @@ nest-asyncio==1.5.1
 nltk==3.7
 notebook==6.4.12
 notebook-shim==0.1.0
-numpy==1.22.4
 oauthlib==3.1.1
 opencv-contrib-python==4.6.0.66
 opencv-python==4.5.3.56
